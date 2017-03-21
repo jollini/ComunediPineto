@@ -11,12 +11,18 @@ and open the template in the editor.
     margin: 0;
     padding:0;
     line-height: 1.0;
+    font-family: cursive;
 }
-
+.ui-panel-inner{
+    font-family: cursive;
+}
 #map-canvas { 
-    width: 100%; 
-    height: 85vh; 
+    width: 110%;
+    height: 50vh;
     padding: 0;
+    margin-top: -60px;
+    margin-left: -10%;
+    margin-right: -10%;
 }
 .imghome{
     width: 138%;
@@ -80,13 +86,19 @@ and open the template in the editor.
     padding: 7px 7px;
 }
 #maincitta{
-    background-image:url("../images/pineta.jpg");
     width:100%;
-    height:95vh;
-    background-size: cover;
-    background-position: center;
     color:#000000;
     padding: 0 !important;
+}
+#cittasfondo{
+    background-image:url("../images/5.jpg"); 
+    width:105%;
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+    margin-top: -5px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 #maincittacontenuto{
     width: 98%;
@@ -101,6 +113,7 @@ and open the template in the editor.
     width: 17%;
     height: 17%;
     text-align: center;
+    margin-top: 5px;
 }
 #visitpineto{
     width: 75%;
@@ -110,7 +123,12 @@ and open the template in the editor.
     margin: 15px 0px;
 }
 #iconemenu{
-    color: #fff;
+    color:#00733a;
+    text-decoration: none;
+    width: 100%;
+    margin: 0px 0px;
+    text-align: center;
+    font-family: cursive;
 }
 #menudv{
     height: 14px;
@@ -128,7 +146,78 @@ and open the template in the editor.
     margin-right: -2em;
     margin-left: -2em;
 }
-.chiesa,.cultura,.monumenti,.parchi,.luoghidinteresse{
-    color:#00733a !important;
+.chiesa,.cultura,.monumenti,.parchi,.luoghidiinteresse,.dovedormire{
+    color:#000 !important;
+    text-decoration: none;
+    text-align: left;
+}
+#logomenu{
+    width: 35%;
+    margin: 0px 5px;
+}
+.contenutochiese,.contenutocultura,.contenutomonumenti,.contenutoparchi,.contenutoluoghidiinteresse{
+    width: 100%;
+    line-height: 3em;
+    font-size: 15px;
+}
+#imgContenuto{
+    width: 70%;
+    padding: 10px 0px; 
+}
+
+/*#pannelloHome,#pannelloCittà{
+    background-image: url(../images/pinetaa.jpg);
+}*/
+#mainindicazioni{
+    line-height: 3em;
+    background-image:url("../images/pinetaa.jpg");
+    color:#000;
+    height:95vh;
+    background-size: cover;
+    background-position: center;
+}
+.contenutodovedormire{
+    color:#000;
+    line-height: 1.7em;
+    width: 100%;
+}
+#collegamentidavisitarechiese,#collegamentidavisitaremonumenti,#collegamentidavisitareluoghidiinteresse,#collegamentidavisitarecultura,#collegamentidavisitareparchi,#collegamenticantine,#collegamentiristoranti,#collegamentiagriturismi{
+    color:#ebebeb;
+    background: none;
+    text-decoration: none !important;
+    text-align: center;
+    font-family: cursive;
+    margin: 5px 0%;
+    height:16.5vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    font-size: 24px;
+}
+#collegamentidavisitarecultura{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/torrecerrano.jpg?alt=media&token=93f315a4-b19f-4acc-a3a4-905033a01549");
+}
+#collegamentidavisitarechiese{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/s.agnese.JPG?alt=media&token=3183de68-d733-4db9-87fb-5cf476c04311");
+}
+#collegamentidavisitareparchi{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/la-storia-di-pineto.jpg?alt=media&token=15e3bf08-28f8-4867-8340-e4dad4238efd");
+}
+#collegamentidavisitaremonumenti{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pistaciclabile.JPG?alt=media&token=7da0c01e-9eea-4388-a823-99628854fff4");
+}
+#collegamentidavisitareluoghidiinteresse{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/mimmopavone.jpg?alt=media&token=98856d03-6bf7-4ab7-8702-2682972ca4bd");
+}
+#collegamenticantine{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/cantine.jpg?alt=media&token=4ccdade0-889f-47d8-92b7-7fe3abf1f130");
+}
+#collegamentiagriturismi{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/agriturismi.jpg?alt=media&token=b33343d9-9770-47bb-987c-662210bc5633");
+}
+#collegamentiristoranti{
+     background-image: url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/ristoranti.jpg?alt=media&token=79b695a7-9e85-4e32-8d9d-38c611dea1d8");
+}
+.cantine,.dvdormire{
     text-decoration: none;
 }
