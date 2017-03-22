@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.coolappz.ComunePineto" version="1.0.0">
-    <name>Comune Pineto</name>
+    <name>Comune di Pineto</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -23,6 +23,16 @@
         <icon density="xhdpi" src="res/android/mipmap-xhdpi/ic_launcher.png"/>
         <icon density="xxhdpi" src="res/android/mipmap-xxhdpi/ic_launcher.png"/>
         <icon density="xxxhdpi" src="res/android/mipmap-xxxhdpi/ic_launcher.png"/>
+        
+        <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
+        <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
+        <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
+        <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>
+        
+        <splash src="res/screen/android/splash-land-hdpi.png" density="port-hdpi"/>
+        <splash src="res/screen/android/splash-land-ldpi.png" density="port-ldpi"/>
+        <splash src="res/screen/android/splash-land-mdpi.png" density="port-mdpi"/>
+        <splash src="res/screen/android/splash-land-xhdpi.png" density="port-xhdpi"/>
         <allow-intent href="market:*"/>
     </platform>
     <platform name="ios">
@@ -52,23 +62,8 @@
         <!-- iPad Spotlight and Settings Icon -->
         <icon src="res/ios/AppIcon.appiconset/Icon-Small-50x50@1x.png" width="50" height="50" />
         <icon src="res/ios/AppIcon.appiconset/Icon-Small-50x50@2x.png" width="100" height="100" />
-    </platform>
-    <!-- Splashscreen -->
-    <platform name="android">
-        <!-- you can use any density that exists in the Android project -->
-        <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
-        <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
-        <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
-        <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>
-        
-        <splash src="res/screen/android/splash-land-hdpi.png" density="port-hdpi"/>
-        <splash src="res/screen/android/splash-land-ldpi.png" density="port-ldpi"/>
-        <splash src="res/screen/android/splash-land-mdpi.png" density="port-mdpi"/>
-        <splash src="res/screen/android/splash-land-xhdpi.png" density="port-xhdpi"/>
-    </platform>
-
-    <platform name="ios">
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
     </platform>
+
 </widget>
