@@ -23,7 +23,12 @@
         <icon density="xhdpi" src="res/android/mipmap-xhdpi/ic_launcher.png"/>
         <icon density="xxhdpi" src="res/android/mipmap-xxhdpi/ic_launcher.png"/>
         <icon density="xxxhdpi" src="res/android/mipmap-xxxhdpi/ic_launcher.png"/>
-        
+    </platform> 
+    <gap:splash src="res/screen/android/splash-land-ldpi.png" gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="res/screen/android/splash-land-mdpi.png" gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="res/screen/android/splash-land-hdpi.png"  gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="res/screen/android/splash-land-xhdpi.png" gap:platform="android" gap:qualifier="port-xhdpi" />
+    <platform name="android">
         <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
         <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
         <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
