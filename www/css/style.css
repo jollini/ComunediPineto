@@ -159,6 +159,19 @@ and open the template in the editor.
     width: 100%;
     line-height: 3em;
     font-size: 15px;
+    margin: 0px 10px;
+}
+#sfondo{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/sfondopineto.png?alt=media&token=d7f896db-bdc4-4308-a325-19bd30d8cc2c");
+    height:95vh;
+    background-size: cover;
+    background-position: center;
+}
+#sfondoeno{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/sfondoeno.jpg?alt=media&token=ce2f52c2-92a8-4cbf-a45c-d356bcc55bb1");
+    height:95vh;
+    background-size: cover;
+    background-position: center;
 }
 #imgContenuto{
     width: 70%;
@@ -170,7 +183,7 @@ and open the template in the editor.
 }*/
 #mainindicazioni{
     line-height: 3em;
-    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pinetaa.jpg?alt=media&token=b35e8926-e5e0-4dce-a946-3fa1221f2fa1");
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pinetaa.jpg?alt=media&token=d249e818-ca09-4cc6-84fa-3bcb36e504ad");
     color:#000;
     height:95vh;
     background-size: cover;
@@ -216,8 +229,15 @@ and open the template in the editor.
     background-image: url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/agriturismi.jpg?alt=media&token=b33343d9-9770-47bb-987c-662210bc5633");
 }
 #collegamentiristoranti{
-     background-image: url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/ristoranti.jpg?alt=media&token=79b695a7-9e85-4e32-8d9d-38c611dea1d8");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/ristoranti.jpg?alt=media&token=79b695a7-9e85-4e32-8d9d-38c611dea1d8");
 }
 .cantine,.dvdormire{
     text-decoration: none;
+}
+#sfondocontenuto{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pinetaa.jpg?alt=media&token=d249e818-ca09-4cc6-84fa-3bcb36e504ad");
+    color:#000;
+    height:95vh;
+    background-size: cover;
+    background-position: center;
 }
