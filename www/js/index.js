@@ -39,7 +39,7 @@ $(function () {
                     lista.empty();
                     $.map(data, function (riga, indice) {
                         var chiesa = riga.Nome + " ";
-                        $(lista).append('<div class="contenutochiese" ><a href="#contenuto" class="chiesa" data-id="' + indice + '">' + chiesa + '</div>');
+                        $(lista).append('<div class="contenutochiese" ><a href="#contenuto" class="chiesa" data-id="' + indice + '">'+'<botton class="ui-btn" id="ciao">' + chiesa + '<i class="ui-btn-right fa" style="font-size:20px;" >&#xf054;</i></botton></a> ' +'</div>');
                     });
                     $(".chiesa").click(function () {
                         var id = $(this).attr('data-id');

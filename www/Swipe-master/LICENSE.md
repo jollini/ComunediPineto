@@ -1,7 +1,6 @@
-Copyright (C) 2013, 2016 Sebastian Tschan, https://blueimp.net
+The MIT License (MIT)
 
-The Swipe implementation is based on https://github.com/bradbirdsall/Swipe, 
-licensed also under the MIT license.
+Copyright (c) 2013 Brad Birdsall
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
