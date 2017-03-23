@@ -1,0 +1,65 @@
+<!-- Pagina Mappe-->
+        <div data-role="page" id="mappa" data-url="mappa">
+            <div data-role="panel" id="pannelloMappa">
+                <div data-role="listview"><br>
+                    <h4 style="text-align: center;">Comune di Pineto</h4><br>
+                    <p style="text-align: center;"><img id="logomenu" src="images/Pinetologo.png" alt=""/></p><br>
+                    <a id="iconemenu" href="#home"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-home"></i>Home<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#città"><button id="iconemenu" class="ui-btn">La <i class="ui-btn-left  fa fa-info-circle"></i>Città<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#davisitare"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-university"></i>Cosa Visitare<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#dovedormire"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-bed"></i>Dove Dormire<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#enogastronomia"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-cutlery"></i>Enogastronomia<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#mappa"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-map-signs"></i>Mappe <i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#galleria"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-picture-o"></i>Galleria<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#contatti"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-phone"></i>Contatti<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                </div>
+            </div>
+
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#pannelloMappa" id="menu" class="fa fa-chevron-left ui-link ui-btn-left ui-btn ui-corner-all" aria-hidden="true"></a>
+                <h1>Mappa</h1>
+            </div>
+
+            <div data-role="main" class="ui-content" id="mainindicazioni">
+
+                <p style="text-align:center;"><iframe id="map-canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1EkPq8xjB7k7RmQwARfmf4P1VAgo"></iframe></p>
+                <h1>Indicazioni</h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td><i style="font-size:24px" class="fa">&#xf238;</i></td>
+                        <td><p>La Stazione Pineto-Atri si trova a 20km da Pescara Centrale</p></td>
+                    </tr>
+                    <tr>
+                        <td><i style="font-size:24px" class="fa">&#xf072;</i></td>
+                        <td><p>L'aeroporto più vicino è a 21 km(Aeroporto d'Abruzzo a Pescara)</p></td>
+                    </tr>
+                    <tr>
+                        <td><i style="font-size:24px" class="fa">&#xf1b9;</i> </td>
+                        <td><p>Uscita dell'Autostrada A14 Pineto-Atri</p></td>
+                    </tr>
+                    <tr>
+                        <td><i style="font-size:24px" class="fa">&#xf21a;</i></td>
+                        <td><p>20 Km dal Porto di Pescara</p></td>
+                    </tr>
+                    <tr>
+                        <td><i style="font-size:24px" class="fa">&#xf207;</i> </td>
+                        <td><p>La città di Pineto è servita dalla società di trasporti "Tua"</p></td>
+                    </tr>
+                    <tr>
+                        <td><i style="font-size:24px" class="fa">&#xf0f8;</i></td>
+                        <td><p>L'ospedale più vicino e il S.Liberatore(Atri 9 km)</p></td>
+                    </tr>
+                    <tr>
+                        <td><i style="font-size:24px" class="fa">&#xf0fa;</i></td>
+                        <td><p>A Pineto ci sono 3 <a href="#farmacie">Farmacie</a></p></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div data-role="footer" data-position="fixed" style="text-align: center;" data-tap-toggle="false">
+                <a href="https://www.facebook.com/comunedipineto/" id="social" class="fa fa-facebook fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+                <a href="https://www.instagram.com/visitpineto/" id="social" class="fa fa-instagram fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+                <a href="https://twitter.com/robverrocchio" id="social" class="fa fa-twitter fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+            </div>
+        </div> 

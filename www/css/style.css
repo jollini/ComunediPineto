@@ -10,7 +10,9 @@ and open the template in the editor.
 *{
     margin: 0;
     padding:0;
-    line-height: 1.0;
+    line-height: 1.0;   
+}
+h1,h2,h3,h4,h5,h6{
     font-family: cursive;
 }
 .ui-panel-inner{
@@ -21,8 +23,8 @@ and open the template in the editor.
     height: 50vh;
     padding: 0;
     margin-top: -60px;
-    margin-left: -10%;
-    margin-right: -10%;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 .imghome{
     width: 138%;
@@ -67,8 +69,8 @@ and open the template in the editor.
     text-shadow:none;
     border: 0;
     font-weight: initial;
-    font-size: 35px;
-    margin-top: -28px;
+    font-size: 36px;
+    margin-top: -22px;
     margin-left: -40px;
 }
 #social{
@@ -82,8 +84,8 @@ and open the template in the editor.
     border: 0;
     font-weight: initial;
     font-size: 24px;
-    margin: 0px 0px;
-    padding: 7px 7px;
+    margin: 4px 0px;
+    padding: 7px 15px;
 }
 #maincitta{
     width:100%;
@@ -141,24 +143,30 @@ and open the template in the editor.
     border: 0;
     font-weight: initial;
     font-size: 35px;
-    margin-top: -28px;
+    margin-top: -21px;
     padding: -4px;
     margin-right: -2em;
     margin-left: -2em;
 }
-.chiesa,.cultura,.monumenti,.parchi,.luoghidiinteresse,.dovedormire{
+.chiesa,.cultura,.monumenti,.parchi,.luoghidiinteresse,.dovedormire,.farmacie{
     color:#000 !important;
     text-decoration: none;
     text-align: left;
 }
 #logomenu{
-    width: 35%;
+    width: 85px;
     margin: 0px 5px;
 }
-.contenutochiese,.contenutocultura,.contenutomonumenti,.contenutoparchi,.contenutoluoghidiinteresse{
-    width: 100%;
+.contenutochiese,.contenutocultura,.contenutomonumenti,.contenutoparchi,.contenutoluoghidiinteresse,.contenutofarmacie{
+    width: 110%;
     line-height: 3em;
-    font-size: 15px;
+    font-size: 13px;
+    margin-left: -15px;
+    margin-right: -15px;
+    opacity: 0.7;
+    padding: 0px;
+    background-color: #e6f4f9;
+    color: #000;
 }
 #sfondo{
     background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/sfondopineto.png?alt=media&token=d7f896db-bdc4-4308-a325-19bd30d8cc2c");
@@ -233,10 +241,28 @@ and open the template in the editor.
 .cantine,.dvdormire{
     text-decoration: none;
 }
+.iconecontenuto{
+    color: #000;
+}
 #sfondocontenuto{
     background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pinetaa.jpg?alt=media&token=d249e818-ca09-4cc6-84fa-3bcb36e504ad");
     color:#000;
     height:95vh;
     background-size: cover;
     background-position: center;
+}
+.swipebox{
+    width:100%;
+}
+#bottonecontenuto{
+    background-color: #fff;
+    color: #000;
+    opacity: 0.8;
+    padding: 7%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: cursive !important;
+}
+h1{
+    font-size: 20px;
 }
