@@ -219,7 +219,8 @@ $(function () {
                     $.map(data, function (riga, indice) {
                         var camping = riga.Nome + " ";
                         var indirizzo = riga.Indirizzo + " ";
-                        $(lista).append('<div class="contenutodovedormire"><a href="#dovedormire" class="dvdormire" data-id="' + indice + '">' + '<h2 style="text-align: center;color:#000;">' + camping + ":" + "</h2>" + '<p style="text-align: center;color:#000;">' + indirizzo + '</p>' + '<br>' + '</div>');
+                        var tel = riga.Tel + " ";
+                        $(lista).append('<div class="contenutodovedormire"><a href="#dovedormire" class="dvdormire" data-id="' + indice + '">' + '<h2 style="text-align: center;color:#000;">' + camping + ":" + "</h2>" + '<p style="text-align: center;color:#000;">' + indirizzo + '</p>' + '<p style="text-align: center;color:#000;">' + tel + '</p>' + '<br>' + '</div>');
                     });
                 })
                 .fail(function () {
@@ -253,7 +254,7 @@ $(function () {
                         var cantina = riga.Nome + " ";
                         var indirizzo = riga.Indirizzo + " ";
                         var descrizione = riga.Descrizione + " ";
-                        $(lista).append('<div class="contenutoagriturismi"><a href="#contenuto" class="cantine" data-id="' + indice + '">' + '<h2 style="text-align: center;color:#000;">' + cantina + "</h2>" + '<br>' + '</div>');
+                        $(lista).append('<div data-role="listview" class="contenutocantine"><a href="#contenuto" class="cantine" data-id="' + indice + '">'+ '<button class="ui-btn" style="background-color: #fff; color:#000;padding:7%;font-family:cursive;" >' +  cantina + '<i class="ui-btn-right fa" style="font-size: 24px;margin-top: 4%;">&#xf054;</i></button></a> ' + '</div>');
                     });
                     $(".cantine").click(function () {
                         var id = $(this).attr('data-id');

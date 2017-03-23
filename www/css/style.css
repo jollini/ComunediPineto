@@ -20,9 +20,9 @@ h1,h2,h3,h4,h5,h6{
 }
 #map-canvas { 
     width: 110%;
-    height: 50vh;
+    height: 55vh;
     padding: 0;
-    margin-top: -60px;
+    margin-top: -65px;
     margin-left: -5%;
     margin-right: -5%;
 }
@@ -50,11 +50,11 @@ h1,h2,h3,h4,h5,h6{
 }
 #bottoniHome{
     text-align: center;
-    font-size: 0.7em;
-    margin-top: -12px;
+    font-size: 1em;
+    margin-top: -30px;
 }
 #mainhome{
-    margin-top: -7px;
+    margin-top: -20px;
 }
 .ui-content{
     font-size: 14px;
@@ -69,8 +69,8 @@ h1,h2,h3,h4,h5,h6{
     text-shadow:none;
     border: 0;
     font-weight: initial;
-    font-size: 36px;
-    margin-top: -22px;
+    font-size: 37px;
+    margin-top: -24px;
     margin-left: -40px;
 }
 #social{
@@ -142,8 +142,8 @@ h1,h2,h3,h4,h5,h6{
     text-shadow: none;
     border: 0;
     font-weight: initial;
-    font-size: 35px;
-    margin-top: -21px;
+    font-size: 37px;
+    margin-top: -24px !important;
     padding: -4px;
     margin-right: -2em;
     margin-left: -2em;
@@ -157,7 +157,7 @@ h1,h2,h3,h4,h5,h6{
     width: 85px;
     margin: 0px 5px;
 }
-.contenutochiese,.contenutocultura,.contenutomonumenti,.contenutoparchi,.contenutoluoghidiinteresse,.contenutofarmacie{
+.contenutochiese,.contenutocultura,.contenutomonumenti,.contenutoparchi,.contenutoluoghidiinteresse,.contenutofarmacie,.contenutocantine{
     width: 110%;
     line-height: 3em;
     font-size: 13px;
@@ -265,4 +265,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1{
     font-size: 20px;
+}
+#iconemenu:active{
+    color: #fff;
+}
+#menu:active,#menudv:active{
+    color:#bbecf5;
 }
