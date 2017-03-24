@@ -30,6 +30,13 @@ h1,h2,h3,h4,h5,h6{
     width: 138%;
     margin-left: -14%;
 }
+#infohome{
+    margin-left: 5px;
+    background-color: transparent;
+    font-size: 17px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
 #abruzzo{
     width: 80%;
     margin-left: 10%;
@@ -51,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
 #bottoniHome{
     text-align: center;
     font-size: 1em;
-    margin-top: -30px;
+    margin-top: -33px;
 }
 #mainhome{
     margin-top: -20px;
@@ -75,17 +82,17 @@ h1,h2,h3,h4,h5,h6{
 }
 #social{
     width: 10%;
-    height: 23px;
+    height: 26px;
     background: none;
     border-color: none;
-    border-box:none;
-    color:#fff;
-    text-shadow:none;
+    border-box: none;
+    color: #fff;
+    text-shadow: none;
     border: 0;
     font-weight: initial;
-    font-size: 24px;
-    margin: 4px 0px;
-    padding: 7px 15px;
+    font-size: 32px;
+    margin: 3px 0px;
+    padding: 7px 28px;
 }
 #maincitta{
     width:100%;
