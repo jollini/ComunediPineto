@@ -279,7 +279,86 @@ and open the template in the editor.
                 <h1>Itinerari</h1>
             </div>
             <div data-role="main" id="sfondo" class="ui-content">
-                <div id="listapreferiti"></div>
+                <h1>Ecco alcuni itinerari consigliati da noi per visitare la città:</h1><br>
+                <div  data-role="listview" class="contenutochiese">
+                    <a href="#itinerario1"><button class="ui-btn" style="background-color: #fff; color:#000;padding:7%;font-family:cursive;" >Lungo la Pista Ciclabile<i class="ui-btn-right fa" style="font-size: 24px;margin-top: 4%;">&#xf054;</i></button></a>
+                    <a href="#itinerario2"><button class="ui-btn" style="background-color: #fff; color:#000;padding:7%;font-family:cursive;" >Alla Scoperta del Borgo Antico<i class="ui-btn-right fa" style="font-size: 24px;margin-top: 4%;">&#xf054;</i></button></a>
+                </div>
+                
+            </div>
+            <div data-role="footer" data-position="fixed" style="text-align: center;" data-tap-toggle="false">
+                <a href="https://www.facebook.com/comunedipineto/" id="social" class="fa fa-facebook fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+                <a href="https://www.instagram.com/visitpineto/" id="social" class="fa fa-instagram fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+                <a href="https://twitter.com/robverrocchio" id="social" class="fa fa-twitter fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+            </div>
+        </div> 
+
+<!-- Pagina Itinerario 1  -->
+
+ <div data-role="page" id="itinerario1">
+            <div data-role="panel" id="pannelloItinerario1">
+               <div data-role="listview"><br>
+                    <h4 style="text-align: center;">Comune di Pineto</h4><br>
+                    <p style="text-align: center;"><img id="logomenu" src="images/Pinetologo.png" alt=""/></p><br>
+                    <a id="iconemenu" href="#home"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-home"></i>Home<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#città"><button id="iconemenu" class="ui-btn">La <i class="ui-btn-left  fa fa-info-circle"></i>Città<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#davisitare"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-university"></i>Cosa Visitare<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#dovedormire"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-bed"></i>Dove Dormire<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#enogastronomia"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-cutlery"></i>Enogastronomia<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#indicazioni"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-map-signs"></i>Indicazioni <i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#itinerari"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-map-marker"></i>Itinerari <i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#galleria"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-picture-o"></i>Galleria<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#contatti"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-phone"></i>Contatti<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                </div>
+            </div>
+
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#pannelloItinerario1" id="menudv" class="fa fa-bars fa-2x ui-link ui-btn-left ui-btn ui-corner-all" aria-hidden="true"></a>
+                <h1>Itinerari</h1>
+            </div>
+            <div data-role="main" id="mainindicazioni" class="ui-content">
+                
+                <p style="text-align:center;"><iframe id="map-canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1q-EJFYaM1wVoe1PTazldB9OCnSQ"></iframe></p>
+                <h1 style="text-align:center;">Lungo la Pista Ciclabile</h1>
+                <p>Con questo itinerario osserverai Pineto attraverso il suo più grande patrimonio, la natura. Si parte da Scerne, una frazione di Pineto lungo la pista ciclopedonale totalmente nel verde, costeggiando la spiaggia di sassi e fermandosi ogni tanto a mangiare le more selvatiche che si trovano ai margini della pista. Arrivati nella della Pineta Storica, di fronte alla stazione si può uscire per fare una breve visita alla chiesa S. Agnese per poi subito riprende la rotta in direzione Torre Cerrano ,nell'area marina protetta, all'interno della quale si trova il Museo Del Mare, e magari osservare lungo il tragitto qualche animale che vive nella pineta come lo scoiattolo o il fratino (uccello di specie protetta). Di Fronte alla Torre, sulla spiaggia inoltre si può anche osservare l'antico Porto di Hadria.</p>
+                
+            </div>
+            <div data-role="footer" data-position="fixed" style="text-align: center;" data-tap-toggle="false">
+                <a href="https://www.facebook.com/comunedipineto/" id="social" class="fa fa-facebook fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+                <a href="https://www.instagram.com/visitpineto/" id="social" class="fa fa-instagram fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+                <a href="https://twitter.com/robverrocchio" id="social" class="fa fa-twitter fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
+            </div>
+        </div> 
+
+<!-- Pagina Itinerario 2  -->
+
+ <div data-role="page" id="itinerario2">
+            <div data-role="panel" id="pannelloItinerario2">
+               <div data-role="listview"><br>
+                    <h4 style="text-align: center;">Comune di Pineto</h4><br>
+                    <p style="text-align: center;"><img id="logomenu" src="images/Pinetologo.png" alt=""/></p><br>
+                    <a id="iconemenu" href="#home"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-home"></i>Home<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#città"><button id="iconemenu" class="ui-btn">La <i class="ui-btn-left  fa fa-info-circle"></i>Città<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#davisitare"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-university"></i>Cosa Visitare<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#dovedormire"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-bed"></i>Dove Dormire<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#enogastronomia"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-cutlery"></i>Enogastronomia<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#indicazioni"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-map-signs"></i>Indicazioni <i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#itinerari"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-map-marker"></i>Itinerari <i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#galleria"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-picture-o"></i>Galleria<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                    <a id="iconemenu" href="#contatti"><button id="iconemenu" class="ui-btn"><i class="ui-btn-left fa fa-phone"></i>Contatti<i class="ui-btn-right fa fa-chevron-right"></i></button></a>
+                </div>
+            </div>
+
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#pannelloItinerario2" id="menudv" class="fa fa-bars fa-2x ui-link ui-btn-left ui-btn ui-corner-all" aria-hidden="true"></a>
+                <h1>Itinerari</h1>
+            </div>
+            <div data-role="main" id="mainindicazioni" class="ui-content">
+                
+                <p style="text-align:center;"><iframe id="map-canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1E_VfsNI-7D8K9LHW4MSac6GhXso"></iframe></p>
+                <h1 style="text-align:center;">Alla scoperta del Borgo Antico</h1>
+                <p>Con questo itinerario osserverai Pineto attraverso il suo più grande patrimonio, la natura. Si parte da Scerne, una frazione di Pineto lungo la pista ciclopedonale totalmente nel verde, costeggiando la spiaggia di sassi e fermandosi ogni tanto a mangiare le more selvatiche che si trovano ai margini della pista. Arrivati nella della Pineta Storica, di fronte alla stazione si può uscire per fare una breve visita alla chiesa S. Agnese per poi subito riprende la rotta in direzione Torre Cerrano ,nell'area marina protetta, all'interno della quale si trova il Museo Del Mare, e magari osservare lungo il tragitto qualche animale che vive nella pineta come lo scoiattolo o il fratino (uccello di specie protetta). Di Fronte alla Torre, sulla spiaggia inoltre si può anche osservare l'antico Porto di Hadria.</p>
+                
             </div>
             <div data-role="footer" data-position="fixed" style="text-align: center;" data-tap-toggle="false">
                 <a href="https://www.facebook.com/comunedipineto/" id="social" class="fa fa-facebook fa-2x ui-link ui-btn ui-corner-all" data-role="button" role="button"></a>
