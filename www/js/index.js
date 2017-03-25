@@ -1,7 +1,7 @@
 $(function () {
     function svuotaContenuto() {
         $("#titoloContenuto").html("");
-        $("#imgContenuto").attr("src", " ");
+        $("#imgContenuto").attr("src", "images/visitpinet.png");
         $("#descrizioneContenuto").html("");
         $("#cont1").html("");
         $("#cont2").html("");
@@ -116,6 +116,7 @@ $(function () {
                                         if (indice == id) {
                                             svuotaContenuto();
                                             $("#titoloContenuto").html(riga.Nome);
+                                            $("#descrizioneContenuto").html(riga.Descrizione);
                                             $("#imgContenuto").attr("src", riga.Immagine);
                                         }
                                     });
@@ -148,6 +149,7 @@ $(function () {
                                             svuotaContenuto();
                                             $("#titoloContenuto").html(riga.Nome);
                                             $("#imgContenuto").attr("src", riga.Immagine);
+                                            $("#descrizioneContenuto").html(riga.Descrizione);
                                             $("#cont2").html(riga.Indirizzo);
                                         }
                                     });
