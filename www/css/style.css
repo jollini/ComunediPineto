@@ -38,18 +38,18 @@ h1,h2,h3,h4,h5,h6{
     margin-right: 4%;
 }
 #abruzzo{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
     margin-top: -2px;
     margin-bottom: 3px;
 }
 #logohome{
-    margin-bottom: 2.5%;
-    margin-top: 4%;
-    width: 15%;
-    height: 15%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    width: 14%;
+    height: 14%;
     text-align: center;
     margin-left: 4%;
     margin-right: 4%;
@@ -106,8 +106,8 @@ h1,h2,h3,h4,h5,h6{
     background-position: center;
     padding: 0 !important;
     margin-top: -5px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -2%;
+    margin-right: -2%;
 }
 #maincittacontenuto{
     width: 96%;
@@ -177,13 +177,13 @@ h1,h2,h3,h4,h5,h6{
 }
 #sfondo{
     background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/sfondopineto.png?alt=media&token=d7f896db-bdc4-4308-a325-19bd30d8cc2c");
-    height:95vh;
+    height:90vh;
     background-size: cover;
     background-position: center;
 }
 #sfondoeno{
     background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/sfondoeno.jpg?alt=media&token=ce2f52c2-92a8-4cbf-a45c-d356bcc55bb1");
-    height:95vh;
+    height:90vh;
     background-size: cover;
     background-position: center;
 }
@@ -199,7 +199,7 @@ h1,h2,h3,h4,h5,h6{
     line-height: 3em;
     background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pinetaa.jpg?alt=media&token=d249e818-ca09-4cc6-84fa-3bcb36e504ad");
     color:#000;
-    height:95vh;
+    height:90vh;
     background-size: cover;
     background-position: center;
 }
@@ -254,7 +254,7 @@ h1,h2,h3,h4,h5,h6{
 #sfondocontenuto{
     background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pinetaa.jpg?alt=media&token=d249e818-ca09-4cc6-84fa-3bcb36e504ad");
     color:#000;
-    height:95vh;
+    height:90vh;
     background-size: cover;
     background-position: center;
 }
@@ -278,4 +278,42 @@ h1{
 }
 #menu:active,#menudv:active{
     color:#bbecf5;
+}
+/**+++++++++++++ACCORDION++++++++++++*/
+button.accordion {
+    background-color: rgba(159, 217, 251, 0.15) !important;
+    color: #444 !important;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    transition: 0.3s;
+    box-shadow: none !important;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
