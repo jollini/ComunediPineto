@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6{
 .imghome{
     width: 138%;
     margin-left: -14%;
+    margin-top: -0.5%;
 }
 #infohome{
     margin-left: 5px;
@@ -36,6 +37,8 @@ h1,h2,h3,h4,h5,h6{
     font-size: 17px;
     margin-left: 4%;
     margin-right: 4%;
+    border-color: transparent;
+    padding:1%;
 }
 #abruzzo{
     width: 70%;
@@ -58,7 +61,10 @@ h1,h2,h3,h4,h5,h6{
 #bottoniHome{
     text-align: center;
     font-size: 1em;
-    margin-top: -38px;
+    margin-top: -32px;
+}
+#infohome:active{
+    color:#008ed4;
 }
 #mainhome{
     margin-top: -20px;
