@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
 #bottoniHome{
     text-align: center;
     font-size: 1em;
-    margin-top: -33px;
+    margin-top: -38px;
 }
 #mainhome{
     margin-top: -20px;
@@ -161,8 +161,12 @@ h1,h2,h3,h4,h5,h6{
     text-align: left;
 }
 #logomenu{
-    width: 85px;
-    margin: 0px 5px;
+    width: 28%;
+    margin-bottom: -4%;
+    margin-top: -3%;
+}
+.titolomenu{
+    font-size: 24px !important;
 }
 .contenutochiese,.contenutocultura,.contenutomonumenti,.contenutoparchi,.contenutoluoghidiinteresse,.contenutofarmacie,.contenutocantine{
     width: 110%;
