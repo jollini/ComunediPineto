@@ -16,6 +16,8 @@
     <allow-intent href="sms:*"/>
     <allow-intent href="mailto:jpallini@yahoo.it"/>
     <allow-intent href="geo:*"/>
+    <preference name="SplashScreenDelay" value="10000"/>
+    <preference name="SplashScreen" value="screen"/>
     <platform name="android">
         <icon density="ldpi" src="res/android/mipmap-ldpi/ic_launcher.png"/>
         <icon density="mdpi" src="res/android/mipmap-mdpi/ic_launcher.png"/>
@@ -23,8 +25,6 @@
         <icon density="xhdpi" src="res/android/mipmap-xhdpi/ic_launcher.png"/>
         <icon density="xxhdpi" src="res/android/mipmap-xxhdpi/ic_launcher.png"/>
         <icon density="xxxhdpi" src="res/android/mipmap-xxxhdpi/ic_launcher.png"/>
-    </platform> 
-    <!--<platform name="android">
         <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
         <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
         <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
@@ -35,9 +35,6 @@
         <splash src="res/screen/android/splash-land-mdpi.png" density="port-mdpi"/>
         <splash src="res/screen/android/splash-land-xhdpi.png" density="port-xhdpi"/>
         <allow-intent href="market:*"/>
-    </platform>-->
-    <platform name="android">
-     <splash src="res/screen/android/screen.png" />
     </platform>
     <platform name="ios">
         <!-- iOS 8.0+ -->
