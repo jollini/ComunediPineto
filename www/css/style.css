@@ -35,8 +35,8 @@ h1,h2,h3,h4,h5,h6{
     margin-left: 5px;
     background-color: transparent;
     font-size: 17px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
     border-color: transparent;
     padding:1%;
 }
@@ -201,10 +201,6 @@ h1,h2,h3,h4,h5,h6{
     width: 70%;
     padding: 10px 0px; 
 }
-
-/*#pannelloHome,#pannelloCittà{
-    background-image: url(../images/pinetaa.jpg);
-}*/
 #mainindicazioni{
     line-height: 3em;
     background-image:url("https://firebasestorage.googleapis.com/v0/b/pineto-1f0b4.appspot.com/o/pinetaa.jpg?alt=media&token=d249e818-ca09-4cc6-84fa-3bcb36e504ad");
