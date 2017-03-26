@@ -141,7 +141,8 @@ h1,h2,h3,h4,h5,h6{
     color:#00733a;
     text-decoration: none;
     width: 100%;
-    margin: 0px 0px;
+    height: 40px;
+    margin: -2px 0px;
     text-align: center;
     font-family: cursive;
 }
@@ -168,8 +169,6 @@ h1,h2,h3,h4,h5,h6{
 }
 #logomenu{
     width: 28%;
-    margin-bottom: -4%;
-    margin-top: -3%;
 }
 .titolomenu{
     font-size: 24px !important;
